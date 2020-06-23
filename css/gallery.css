@@ -19,43 +19,16 @@ li {
   list-style: none;
 }
 
+button:focus {
+  outline: none;
+}
+
 .container-fluid {
   padding: 0;
 }
 
 .modal-header {
   border-bottom: none !important;
-}
-
-/*********** NAVBAR ************/
-.nav-header-container {
-  display: flex;
-  justify-items: center;
-}
-
-.brand-logo {
-  margin-left: auto;
-  width: 157px;
-  height: 85px;
-  display: flex;
-  align-items: center;
-}
-.navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-}
-
-.navbar .navbar-collapse {
-  text-align: center;
-}
-
-.navbar-default {
-  background: white;
-  border: none;
-}
-
-.nav-header-container .navbar-header {
-  margin-left: auto;
 }
 
 /*********** COVER IMAGE **********/
@@ -166,67 +139,6 @@ li {
 @media screen and (max-width: 990px){
   .container .jumbotron, .container-fluid .jumbotron {
     padding: 15px 50px;
-  }
-}
-
-
-/******* FOOTER ********/
-
-.footer {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  padding: 50px 30px;
-  background: #131212;
-  color: white;
-  text-align: center;
-}
-
-.footer a {
-  color: white;
-}
-
-.footer .row {
-  width: 100%;
-  margin: 0;
-}
-
-.footer section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.footer .row div:nth-child(2) > p {
-  font-size: 14px;
-  margin-top: 100px;
-}
-
-.footer li {
-  margin-right: 20px;
-}
-
-@media screen and (max-width: 770px) {
-  .nav-header-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  .brand-logo {
-    padding: 20px;
-    margin: 0;
-  }
-
-  .navbar-brand {
-    width: 160px;
-  }
-
-  .footer .row div:nth-child(2) > p {
-    margin-top: 0;
-  }
-
-  .cover-text {
-    font-size: 44px;
   }
 }
 
