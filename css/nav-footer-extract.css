@@ -1,0 +1,114 @@
+/*********** NAVBAR ************/
+.navbar button:focus {
+  outline: none;
+}
+.navbar {
+  display: flex;
+  flex-direction: column;
+  background: white;
+}
+.navbar .navbar-nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  float: none;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.nav-item {
+  margin: 10px 20px;
+}
+.nav-item a {
+  color: #131212 !important;
+}
+.nav-header-container {
+  display: flex;
+  justify-items: center;
+}
+
+.brand-logo {
+  margin-left: auto;
+  width: 157px;
+  height: 85px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-header-container .navbar-header {
+  margin-left: auto;
+}
+
+/****** FOOTER *******/
+.footer ul {
+  display: flex;
+  padding: 0;
+}
+
+.footer li {
+  list-style: none;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 50px 30px;
+  background: #131212;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.footer a {
+  color: white;
+}
+
+.footer .row {
+  width: 100%;
+  margin: 0;
+}
+
+.footer section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer .row div:nth-child(2) > p {
+  font-size: 14px;
+  margin-top: 100px;
+}
+
+.footer li {
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 989px) {
+  .nav-header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .brand-logo {
+    padding: 20px;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 770px) { 
+  .footer .row div:nth-child(2) > p {
+    margin-top: 0;
+  }
+
+}
+
+@media screen and (max-width: 575px) { 
+  .copywright {
+    order: 3;
+  }
+}

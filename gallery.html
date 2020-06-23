@@ -7,57 +7,51 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/gallery.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     
-    <title>ZURI | Gallery</title>
+    <link rel="stylesheet" href="./css/gallery.css">
+    <link rel="stylesheet" href="./css/nav-footer-extract.css">
+    <title>Zuri</title>
 </head>
 <body>
   <div class="container-fluid">
-    <nav class="navbar navbar-default">
-      <div class="container nav-container">
-        <div class="nav-header-container">
-          <div class="brand-logo">
-            <a class="" href="#"><img style="width: 100%;" src="./images/ZURI.png" alt=""></a>
-          </div>
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="nav-header-container">
+        <div class="brand-logo">
+          <a class="" href="#"><img style="width: 100%;" src="./images/ZURI.png" alt=""></a>
         </div>
-        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
     
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav ">
-            <li class="nav-item">
-              <a href="nav-link" href="#">HOME</a>
-            </li>
-            <li class="nav-item">
-              <a href="nav-link" href="#">MENU</a>
-            </li>
-            <li class="nav-item">
-              <a href="nav-link" href="#">BLOG</a>
-            </li>
-            <li class="nav-item">
-              <a href="nav-link" href="#">RESERVATION</a>
-            </li>
-            <li class="nav-item">
-              <a href="nav-link" href="#">GALLERY</a>
-            </li>
-            <li class="nav-item">
-              <a href="nav-link" href="#">ABOUT US</a>
-            </li>
-            <li class="nav-item">
-              <a href="nav-link" href="#">CONTACT</a>
-            </li>
-          </ul>
-        </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a href="menu.html" >MENU</a>
+          </li>
+          <li class="nav-item">
+            <a href="blog.html" >BLOG</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">RESERVATION</a>
+          </li>
+          <li class="nav-item active">
+            <a href="#">GALLERY</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">CONTACT</a>
+          </li>
+        </ul>
       </div>
     </nav>
+    
     <div class="cover-image fade-in">
       <picture>
         <source media="(max-width:440px)" srcset="./images/menu-header_mobile2.png">
@@ -158,7 +152,7 @@
         <div class="col-sm-4">
           <p><a href="#">PRIVACY POLICY</a></p>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4 copywright">
           <p>&copy 2020 POWERED BY TEAM AVENGERS</p>
         </div>
         <div class="col-sm-4">
@@ -183,8 +177,9 @@
       duration: 1000
     });
   </script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="./script/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="./script/bootstrap.min.js"></script>
   
 </body>
 </html>
